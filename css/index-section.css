@@ -2,33 +2,37 @@ section {
     margin: 4vh 4vw;
 }
 
-main section h2 {
+main section h1 {
     text-align: center;
-    font-size: clamp(0.9rem, 4vw, 5rem);
+    font-size: clamp(1.2rem, 4vw, 5rem);
     margin-bottom: 2rem;
     background-image: url("../assets/img/gradient-text.jpg");
     background-size: 10%;
-    background-position: 65% 65%;
+    background-position: 15% 85%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .article-link {
     list-style: disc;
-    font-size: clamp(0.9rem, 2.7vw, 3.2rem);
+    font-size: clamp(1.1rem, 2.7vw, 3.2rem);
     margin: 1.5rem 0;
     font-weight: bold;
-    color: #E25D16;
+    color: white;
 }
 
 main section article ul li {
-    font-size: clamp(0.9rem, 2.5vw, 3rem);
+    font-size: clamp(1.2rem, 2.5vw, 3rem);
     margin: 1.2rem 0;
 }
 
 article ul {
     list-style: none;
     margin-left: 2rem;
+}
+
+a {
+    color: yellowgreen;
 }
 
 @media screen and (width <= 768px) {

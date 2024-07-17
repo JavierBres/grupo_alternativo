@@ -31,8 +31,16 @@ article ul {
     margin-left: 2rem;
 }
 
-a {
+.article-link-Pili {
     color: yellowgreen;
+}
+
+.article-link-Bea {
+    color: blueviolet;
+}
+
+.article-link-Javi {
+    color: #E25D16;
 }
 
 @media screen and (width <= 768px) {
@@ -40,5 +48,4 @@ a {
         margin: 0;
     }
 }
-
 
